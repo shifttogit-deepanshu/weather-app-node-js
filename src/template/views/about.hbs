@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
+        <link href="/fontawesome/css/brands.css" rel="stylesheet">
+        <link href="/fontawesome/css/solid.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/styles.css" type="text/css">
+        
+        
+    </head>
+
+    <body>
+        {{>header}}
+        <div class="container-about">
+            <div class="card">
+                <div class="card-img">
+                    <img class="img-self" src="/images/self.jpg">
+                    <h1 class="name-self">Deepanshu Sharma</h1>
+
+                </div>
+                <div class="card-info">
+                    <div class="about-me"><h1 class="abt-me">Full Stack Developer And Designer</h1>
+                    
+                    
+                    <div class="tech-stack">
+                        <div class="tech">
+                           <i class="fab fa-node"></i>
+                            
+                        </div>
+                        
+                        <div class="tech">
+                            <i class="fab fa-js-square"></i>
+                            
+                        </div>
+                        <div class="tech">
+                            <i class="fab fa-html5"></i>
+                            
+                        </div>
+                        <div class="tech">
+                            <i class="fab fa-php"></i>
+                            
+                        </div>
+                        <div class="tech">
+                            <i class="fab fa-python"></i>
+
+                            
+                        </div>
+                        
+
+                        </div>
+                        
+                    
+                </div>  
+                <div class="foot2-bottom card-footer">
+                <a href="#"><i class="fab fa-github-square"></i></a>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-node-js"></i></a>
+                <a href="#"><i class="fab fa-reddit-square"></i></a>
+
+                
+
+                    </div>   
+                               
+
+                </div>
+                
+              
+
+
+            </div>
+
+        </div>
+        
+        {{>footer}}
+        <script>
+            function adjust(){
+                var x = screen.width;
+                if(x<1204){
+                    document.querySelector("body").style.display="none"
+                    
+                    window.alert("This application works only on desktop and devices having width over 1204px :)")
+                }
+            }
+            adjust()
+
+        </script>
+    </body>
+
+
+</html>

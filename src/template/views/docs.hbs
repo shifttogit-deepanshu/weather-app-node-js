@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+    </head>
+
+    <body>
+        {{>header}}
+        <div class="container-docs docs-mssg">
+            **Docs will be available soon**
+        </div>
+        {{>footer}}
+        <script>
+            function adjust(){
+                var x = screen.width;
+                if(x<1204){
+                    document.querySelector("body").style.display="none"
+                    
+                    window.alert("This application works only on desktop and devices having width over 1204px :)")
+                }
+            }
+            adjust()
+
+        </script>
+    </body>
+
+
+</html>

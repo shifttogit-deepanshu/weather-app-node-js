@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
+        <link href="/fontawesome/css/brands.css" rel="stylesheet">
+        <link href="/fontawesome/css/solid.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/styles.css" type="text/css">
+        
+        
+    </head>
+
+    <body>
+        {{>header}}
+        <div class="container-weather">
+            <div class="search-container">
+                <div class="jumbotron">
+                    <h1 class="weather-head">Weather</h1>
+                    <h2 class="weather-head wh-size">Search By Location</h2>
+                    <form>
+                        <input type="text" placeholder="Location" name="address">
+                        <button class="search-btn">search</button>
+                        
+                    </form>
+
+                </div>
+
+            </div>
+            <div class="forecast-container">
+                <div class="forecast">
+                    <div class="forecastbar1 bar-g location-bar">
+                        <div class="location">
+                            <div class="location-head">
+                                <h2>LOCATION:</h2>
+                            </div>
+                            <div class="place">
+                                <h1 class="city">GURUGRAM</h1>
+                            </div>
+                            <div class="country">
+                               <h3 class="region"> Haryana, </h3><span class="count">India</span>
+                            </div>
+                        </div>
+                        <div class="day-night">
+                            <i class=" toggler fas fa-cloud-sun"></i><br>
+                            <h2 class="day-js" >DAY</h2>
+
+                        </div>
+                        
+
+                    </div>
+                    <div class="forecastbar bar-b temp">
+                        <div class="log">
+                            <h1 style="color:rgba(0, 177, 106, 0.7)">Temperature: <span style="color:white"><span class="temp-js" style="color:white">22</span>°C</span></h1>
+                            
+                        </div>
+                        <div class="log">
+                            <h1 style="color:rgba(0, 177, 106, 0.7)">Precipitation: <span class="precip-js" style="color:white">2.6</span></h1>
+
+                        </div>
+                        
+                    </div>
+                    <div class="forecastbar bar-g logs">
+                        <div class="log2">
+                            <h1 style="color:black">Wind Speed: <span class="wind-js" style="color:white">22°C</span></h1>
+                            
+                        </div>
+                        <div class="log2">
+                            <h1 style="color:black">Humidity: <span class="humid-js" style="color:white">2.6</span></h1>
+
+                        </div>
+                        <div class="log2">
+                            <h1 style="color:black">Cloud: <span class="cloud-js" style="color:white">22°C</span></h1>
+                            
+                        </div>
+                        
+
+                        
+                        
+                    </div>
+                    <div class="forecastbar bar-b desc">
+                        <h1 class="desc-js" style="color:rgba(0, 177, 106, 0.7)">Moderate rain</h1>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        {{>footer}}
+        <script src="js/script.js"></script>
+    </body>
+
+
+</html>

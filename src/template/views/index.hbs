@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
+        <link href="/fontawesome/css/brands.css" rel="stylesheet">
+        <link href="/fontawesome/css/solid.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/styles.css" type="text/css">
+        
+        
+        
+    </head>
+
+    <body>
+        {{>header}}
+        <div class="container-cover">
+            <div class="cover">
+                <i class="fas fa-cloud-sun-rain"></i>
+                <h1>Get all weather information Quick and easy</h1>
+                
+                <a class="btn-get-started" href="/weather">Get Started</a>
+                </div>
+            </div>
+        
+        {{>footer}}
+        <script>
+            function adjust(){
+                var x = screen.width;
+                if(x<1204){
+                    document.querySelector("body").style.display="none"
+                    
+                    window.alert("This application works only on desktop and devices having width over 1204px :)")
+                }
+            }
+            adjust()
+
+        </script>
+    </body>
+
+
+</html>
