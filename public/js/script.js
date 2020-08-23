@@ -9,7 +9,7 @@ formselect.addEventListener("submit",(event)=>{
        console.log("no value submitted")
    }
    else{
-       const url = "http://localhost:3000/data?address=" + input.value
+       const url = "/data?address=" + input.value
        fetch(url).then((response)=>{
            response.json().then((data)=>{
             if(data.error){

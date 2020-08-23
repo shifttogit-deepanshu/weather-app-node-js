@@ -8,6 +8,7 @@ const geocode = require("./playground/geocoding/geofunction")
 
 const forecast = require("./playground/forecast/forecast")
 
+const port = process.env.PORT || 3000
 
 
 const hbs = require("hbs")
@@ -111,6 +112,8 @@ app.get('*',(req,res)=>{
 
 
 
-app.listen(3000)
+app.listen(port,()=>{
+    console.log("app is listening to port" + port)
+})
 
 
