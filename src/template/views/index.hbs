@@ -26,7 +26,10 @@
         {{>footer}}
         <script>
             function adjust(){
-                var x = screen.width;
+                var x = screen.width
+                var y = document.documentElement.clientWidth;
+
+               
                 if(x<1204){
                     document.querySelector(".header-container").style.width="100%"
                     document.getElementsByClassName("header-links")[0].style.fontSize="40px"
@@ -40,6 +43,8 @@
                     document.getElementsByClassName("copyright")[0].style.fontSize="15px"
                     
                     document.getElementsByClassName("btn-get-started")[0].style.fontSize="30px"
+                   
+                    
 
                    
                 }
