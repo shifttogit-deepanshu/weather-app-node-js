@@ -64,6 +64,7 @@ body{
     align-items: center;
     animation-name: appear;
     animation-duration:2s;
+
     
 }
 .btn-get-started{
@@ -91,12 +92,14 @@ body{
     font-size:200px;
    
 }
+/*---------------------footer-----------------------*/
 .footer{
     
     height:70vh;
     width:100%;
     background-color:rgb(32, 34, 34);
     border-top:2px solid rgba(0, 177, 106, 1);
+   
    
     }
 .foot1{
@@ -107,6 +110,7 @@ body{
     font-family:arial;
     font-size:20px;
     font-weight:300;    
+  
     
 }
 
@@ -181,6 +185,7 @@ li a{
         opacity:1;
     }
 }
+/*---------------------------------------------------*/
 .container-weather{
     height:80vh;
     width:100%;
