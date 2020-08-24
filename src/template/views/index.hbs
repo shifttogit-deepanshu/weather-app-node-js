@@ -24,7 +24,21 @@
             </div>
         
         {{>footer}}
-      
+        <script>
+            function adjust(){
+                var x = screen.width;
+                if(x<1204){
+                    document.querySelector(".header-container").style.width="100%"
+                    document.getElementsByClassName("header-links")[0].style.fontSize="40px"
+                    document.getElementsByClassName("header-links")[1].style.fontSize="40px"
+                    document.getElementsByClassName("header-links")[2].style.fontSize="40px"
+                    document.getElementsByClassName("header-links")[3].style.fontSize="40px"
+                   
+                }
+            }
+            adjust()
+
+        </script>
     </body>
 
 
