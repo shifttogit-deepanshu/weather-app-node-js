@@ -48,15 +48,15 @@ body{
 .container-cover{
     width:100%;
     background-color:rgba(0, 177, 106, 1);
-    height:80vh;
     display:flex;
     justify-content:space-around;
     align-items: center;    
+    height:80vh;
+    
 }
 .cover{
 
     color:rgb(226, 224, 224);
-    
     font-family:arial; 
     display: flex;
     flex-direction: column;
@@ -97,10 +97,11 @@ body{
 }
 /*---------------------footer-----------------------*/
 .footer{
+    height:100%;
     
-    height:70vh;
+    
     width:100%;
-    background-color:rgb(32, 34, 34);
+ 
     border-top:2px solid rgba(0, 177, 106, 1);
    
    
@@ -113,7 +114,8 @@ body{
     font-family:arial;
     font-size:20px;
     font-weight:300;    
-
+    padding-bottom:30px;
+    background-color:rgb(32, 34, 34);
     
 }
 
@@ -124,26 +126,29 @@ body{
 .name-foot{
     font-size:15px;
     color:rgba(0, 177, 106, 1);
+
 }
 .foot2{
     background-color:rgb(21, 22, 22);
-    height:80%;
-}
-.foot2{
+    padding-top:30px;
+    padding-bottom:100px;
+    
     display:flex;
     justify-content: space-around;
     align-items: center; 
+
 }
 .foot2-container{
     width:80%;
-    height:80%;
-    
+    height:100%;
+    padding-top:30px;
+
     
 
 }
 .foot2-top{
     
-    height:90%;
+  
     display:flex;
     font-family:arial;
     font-size:20px;
@@ -153,6 +158,8 @@ body{
 .foot2-bottom{
     
     height:10%;
+    padding-top:120px;
+
 }
 .useful-links{
     
@@ -176,6 +183,7 @@ li a{
     font-size:30px;
     color:white;
     padding:10px;
+    
 }
 
 
@@ -220,7 +228,7 @@ li a{
 }
 .jumbotron{
     width: 100%;
-    height:80%;
+    padding-bottom:50px;
     background-color:rgba(210, 215, 211, 1);
 
 }
@@ -272,8 +280,8 @@ input{
 
 }
 .card{
-    width:80%;
-    height:80%;
+    width:90%;
+    border:2px solid magenta;
     background-color:rgb(32, 34, 34);
     box-shadow:2px 2px 30px black;
     display:flex;
@@ -294,7 +302,11 @@ input{
 .card-info{
     height:100%;
     width:70%;
-    /* border:2px solid magenta; */
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items:center;
+    border:2px solid magenta;
 
   
 }
@@ -307,8 +319,50 @@ input{
     font-family:arial;
     font-size:40px;
     padding-top:10%;    
-     
+     text-align:center;
     color:rgba(0, 177, 106, 1);
+}
+.tech-stack{
+   border:2px solid magenta;
+    width:100%;
+    height:90%;
+    display:flex;
+    background-color:rgb(32, 34, 34);
+
+}
+.tech{
+   
+    width:20%;
+    font-size:120px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:rgba(0, 177, 106, 10);
+ 
+
+}
+.tech .fab:hover{
+    color:white;
+    font-size:130px;
+    transition-duration:0.4s;
+}
+.card-footer{
+    
+    width:100%;
+    text-align:center;
+}
+.about-me{
+    width:90%;
+    height:80%;
+
+    margin:auto;
+  
+}
+.abt-me{
+    font-family:arial;
+    font-size:30px;  
+    color:rgba(0, 177, 106, 1);
+    
 }
 
 .forecast{
@@ -466,46 +520,7 @@ input{
     align-items: center;
     text-align:center
 }
-.tech-stack{
-   
-    width:100%;
-    height:90%;
-    display:flex;
-}
-.tech{
-   
-    width:20%;
-    font-size:120px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    color:rgba(0, 177, 106, 10);
- 
 
-}
-.tech .fab:hover{
-    color:white;
-    font-size:130px;
-    transition-duration:0.4s;
-}
-.card-footer{
-    
-    width:100%;
-    text-align:center;
-}
-.about-me{
-    width:90%;
-    height:80%;
-
-    margin:auto;
-  
-}
-.abt-me{
-    font-family:arial;
-    font-size:30px;  
-    color:rgba(0, 177, 106, 1);
-    
-}
 .docs-mssg{
     font-family:arial;
     font-size:30px;  
