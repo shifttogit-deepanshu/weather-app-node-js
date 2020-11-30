@@ -2,7 +2,7 @@
 Realtime weather application using NODE JS
 
 
-## Get Realtime weaher information from accross the globe 
+## Get Realtime weather information from accross the globe 
 
 
 ###### Visit: [Weather Application](https://weather-application-deepanshu.herokuapp.com/)
