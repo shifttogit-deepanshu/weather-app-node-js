@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'wethify'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_775d03f1b334401fa329e8722c3f6df4 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_116f711d613943fc9df47a339159cfd3 }}
         package: .
